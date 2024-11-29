@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pracstyle.css">
+</head>
+<body>
+    <div class="container">
+        <header class="signup-header">
+            <h1>
+                Sign Up
+            </h1>
+        </header>
+        <main class="signup-body">
+            <form action="#">
+                <p>
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Type here name" id="name">
+                    <i class="fa-solid"></i>
+                    <span id="nameerror"></span>
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="xyz@123" id="email">
+                    <i class="fa-solid"></i>
+                    <span id="emailerror"></span>
+                </p>
+
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Type here password" id="password">
+                    <i class="fa-solid"></i>
+                    <span id="passerror"></span>
+                </p>
+                <p>
+                    <input type="submit" value="Create Account" id="submitbtn">
+                </p>
+            </form>
+        </main>
+        <footer class="signup-footer">
+            <p>Already have an account? <a href="">Login</a></p>
+        </footer>
+    </div>
+
+    <script src="pracscript.js"></script>
+</body>
+</html>
